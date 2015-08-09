@@ -1,0 +1,55 @@
+Name: Chao Huang
+
+Clemson Email Address: chaoh@g.clemson.edu
+
+Cpsc: 8700. Software engineering
+
+Project No:	7/final
+
+Project Due date:	Dec. 5th, 2014
+
+--------------------------------------------
+Thanks
+
+I have to put these words at first to express my thanks to Dr. Malloy and Rayman. 
+
+Thanks for this game. This game which is produced by Ubisoft is a really classic game in my childhood. It gives me lots of fun and tears. 
+
+Thanks to Dr. Malloy. It is your help that make me have the ability to remake my favourate by myself. It is really a nice experience to learn with you. 
+
+
+Introduction
+1. Game story:
+	Our hero Rayman have a mission to beat all the bird in the world. 
+
+	Rayman has a strong fist. He can throw his fist and beat the bird. The fist can return back to his body after it fly a constant distance. So that there is just one fist in the game. Rayman can run, jump and crawl during the game.
+
+	The bird can has two colors: red and pink. Normally, the bird is pink and just run in a circle. However, if our hero hit it, it will turn to angry (which means red color). When the bird become angry, it will fly in random direction and more quickly than before. If the bird fly near the Rayman, it will avoid the Rayman and fly into another directions. So the bird is smarter than before.
+
+	This game is really difficult. Because Rayman is designed has one fist. So you have to wait for the returning of the fist. 
+
+	PS: You can still hit 'e' button to make all the bird stop or press 'r' to reset the game.
+
+2. How to win: 
+	In limit time which means 60 seconds, you have to beat each bird twice(from pink to red, to to explore state). Or you lost the game.
+
+3. New Core functions:
+	a. mini map design. I add a mini map in my game which will helpful for you to learn where is the flying bird.
+	b. AI design. I use visitor model to make all the birds smarter. If the bird turn to red, it will be added into Rayman subject's list.Then all the bird will see Rayman's current location and avoid to meet it.
+	c. Menu design. There are four options in the menu page named: 
+		- Start Game
+		- Bird Number
+		- Help
+		- Exit
+
+4. Memeory.
+	I have tested all the operations in my game using Valgrind. There is no extra memory leak.
+
+5. Moive of the game also stored in the project folder.
+
+
+6. Acknowledge and material sourse:
+
+	a. The hero Rayman I get from 'http://www.spriters-resource.com/game_boy_advance/raymanadv/sheet/24892/'
+	b. The backgound materials are supported by 'http://www.wallpaperinfinite.com/wallpaper/rayman-legends-background-570911'
+

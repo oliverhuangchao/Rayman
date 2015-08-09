@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<MenuSpec>
+
+<words>
+  <number>4</number>
+  <x>100</x>
+  <y>100</y>
+  <space x="70" y="60"/>
+  <i0>Start Game</i0>
+  <i1>Bird Number</i1>
+  <i2>Help</i2>
+  <i3>Exit</i3>
+</words>
+
+<clickoff>
+  <file>images/raymanPointer.png</file>
+  <width>40</width>
+  <height>40</height>
+  <src x="0" y="0"/>
+  <transparency>false</transparency>
+</clickoff>
+
+<clickon>
+  <file>images/raymanPointer.png</file>
+  <width>40</width>
+  <height>40</height>
+  <src x="0" y="0"/>
+  <transparency>false</transparency>
+</clickon>
+
+
+
+</MenuSpec>
